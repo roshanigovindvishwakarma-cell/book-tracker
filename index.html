@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Recipe Finder</h1>
+    <input type="text" id="search" placeholder="Search recipes...">
+</header>
+
+<section id="filters">
+    <button onclick="filterCategory('All')">All</button>
+    <button onclick="filterCategory('Breakfast')">Breakfast</button>
+    <button onclick="filterCategory('Lunch')">Lunch</button>
+    <button onclick="filterCategory('Dinner')">Dinner</button>
+</section>
+
+<section id="recipes"></section>
+
+<h2>❤️ Favorites</h2>
+<section id="favorites"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
